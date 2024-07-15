@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Hero, Footer, Features } from './components';
+import { Navbar, Hero, Footer, Features, Home, Skills, Projects} from './components';
 import '../src/assets/styles/styles.css';
 
 function App() {
@@ -11,6 +11,9 @@ function App() {
           <div className="welcome welcome-nightly">
             <Hero />
             <Features />
+            <Home />
+            <Skills />
+            <Projects />
           </div>
         </div>
         <Footer />
